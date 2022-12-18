@@ -7,16 +7,16 @@
     "content-hash": "286dc24c47952271ff77c9b83b5fbc25",
     "packages": [
         {
-            "name": "ang3/php-odoo-api-client",
+            "name": "aesislabs/php-odoo-api-client",
             "version": "v6.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Ang3/php-odoo-api-client.git",
+                "url": "https://github.com/Aesislabs/php-odoo-api-client.git",
                 "reference": "f74a83d94a28aa8012431be216c4c8183da0b9fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ang3/php-odoo-api-client/zipball/f74a83d94a28aa8012431be216c4c8183da0b9fe",
+                "url": "https://api.github.com/repos/Aesislabs/php-odoo-api-client/zipball/f74a83d94a28aa8012431be216c4c8183da0b9fe",
                 "reference": "f74a83d94a28aa8012431be216c4c8183da0b9fe",
                 "shasum": ""
             },
@@ -38,8 +38,8 @@
             "type": "component",
             "autoload": {
                 "psr-4": {
-                    "Ang3\\Component\\Odoo\\": "src/",
-                    "Ang3\\Component\\Odoo\\Tests\\": "tests/"
+                    "Aesislabs\\Component\\Odoo\\": "src/",
+                    "Aesislabs\\Component\\Odoo\\Tests\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -49,8 +49,8 @@
             "authors": [
                 {
                     "name": "Joanis ROUANET",
-                    "email": "joanis.ang3@gmail.com",
-                    "homepage": "https://github.com/Ang3"
+                    "email": "joanis.aesislabs@gmail.com",
+                    "homepage": "https://github.com/Aesislabs"
                 }
             ],
             "description": "Odoo API client",

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Normalizer;
+namespace Aesislabs\Component\Odoo\ORM\Normalizer;
 
-use Ang3\Component\Odoo\Expression\ExpressionBuilder;
-use Ang3\Component\Odoo\ORM\Model\Collection;
+use Aesislabs\Component\Odoo\Expression\ExpressionBuilder;
+use Aesislabs\Component\Odoo\ORM\Model\Collection;
 use ProxyManager\Proxy\GhostObjectInterface;
 use Symfony\Component\Serializer\Exception\ExceptionInterface as SerializerException;
 

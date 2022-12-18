@@ -1,9 +1,9 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Normalizer;
+namespace Aesislabs\Component\Odoo\ORM\Normalizer;
 
-use Ang3\Component\Odoo\Expression\DomainInterface;
-use Ang3\Component\Odoo\Expression\ExpressionBuilder;
+use Aesislabs\Component\Odoo\Expression\DomainInterface;
+use Aesislabs\Component\Odoo\Expression\ExpressionBuilder;
 
 class DomainStringNormalizer extends AbstractNormalizer
 {

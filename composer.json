@@ -1,30 +1,30 @@
 {
-    "name": "ang3/php-odoo-orm",
+    "name": "aesislabs/php-odoo-orm",
     "description": "PHP object relational mapper (ORM) for Odoo databases.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Joanis Rouanet",
-            "email": "joanis.ang3@gmail.com"
+            "email": "joanis.aesislabs@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.2.5",
-        "ang3/php-odoo-api-client": "^6.0",
-        "symfony/cache": "^4.2 || ^5.0",
+        "php": "^8.1",
+        "aesislabs/php-odoo-api-client": "dev-master",
+        "symfony/cache": "^6.1",
         "ocramius/proxy-manager": "^2.2",
-        "doctrine/annotations": "^1.0",
-        "symfony/property-access": "^4.2 || ^5.0",
-        "symfony/serializer": "^4.2 || ^5.0",
-        "symfony/string": "^5.0"
+        "doctrine/annotations": "^1.14.1",
+        "symfony/property-access": "^6.1",
+        "symfony/serializer": "^6.1",
+        "symfony/string": "^6.1"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Ang3\\Component\\Odoo\\ORM\\": "src/"
+            "Aesislabs\\Component\\Odoo\\ORM\\": "src/"
         }
     }
 }

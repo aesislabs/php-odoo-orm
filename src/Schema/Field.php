@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Schema;
+namespace Aesislabs\Component\Odoo\ORM\Schema;
 
 class Field
 {

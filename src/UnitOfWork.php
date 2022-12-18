@@ -1,19 +1,19 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM;
+namespace Aesislabs\Component\Odoo\ORM;
 
-use Ang3\Component\Odoo\ORM\Exception\LogicException;
-use Ang3\Component\Odoo\ORM\Exception\RecordNotFoundException;
-use Ang3\Component\Odoo\ORM\Exception\RuntimeException;
-use Ang3\Component\Odoo\ORM\Internal\ProxyFactory;
-use Ang3\Component\Odoo\ORM\Mapping\ClassMetadata;
-use Ang3\Component\Odoo\ORM\Mapping\MappingException;
-use Ang3\Component\Odoo\ORM\Mapping\PropertyMetadata;
-use Ang3\Component\Odoo\ORM\Model\Collection;
-use Ang3\Component\Odoo\ORM\Normalizer\CollectionNormalizer;
-use Ang3\Component\Odoo\ORM\Normalizer\DomainStringNormalizer;
-use Ang3\Component\Odoo\ORM\Normalizer\RecordNormalizer;
-use Ang3\Component\Odoo\ORM\Schema\Model;
+use Aesislabs\Component\Odoo\ORM\Exception\LogicException;
+use Aesislabs\Component\Odoo\ORM\Exception\RecordNotFoundException;
+use Aesislabs\Component\Odoo\ORM\Exception\RuntimeException;
+use Aesislabs\Component\Odoo\ORM\Internal\ProxyFactory;
+use Aesislabs\Component\Odoo\ORM\Mapping\ClassMetadata;
+use Aesislabs\Component\Odoo\ORM\Mapping\MappingException;
+use Aesislabs\Component\Odoo\ORM\Mapping\PropertyMetadata;
+use Aesislabs\Component\Odoo\ORM\Model\Collection;
+use Aesislabs\Component\Odoo\ORM\Normalizer\CollectionNormalizer;
+use Aesislabs\Component\Odoo\ORM\Normalizer\DomainStringNormalizer;
+use Aesislabs\Component\Odoo\ORM\Normalizer\RecordNormalizer;
+use Aesislabs\Component\Odoo\ORM\Schema\Model;
 use ProxyManager\Proxy\GhostObjectInterface;
 use Symfony\Component\Serializer\Exception\ExceptionInterface as SerializerException;
 use Symfony\Component\Serializer\Serializer;

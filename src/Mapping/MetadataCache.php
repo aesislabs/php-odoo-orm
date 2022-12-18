@@ -1,8 +1,8 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Mapping;
+namespace Aesislabs\Component\Odoo\ORM\Mapping;
 
-use Ang3\Component\Odoo\ORM\Exception\RuntimeException;
+use Aesislabs\Component\Odoo\ORM\Exception\RuntimeException;
 use Psr\Cache\InvalidArgumentException;
 use ReflectionClass;
 use function Symfony\Component\String\s;

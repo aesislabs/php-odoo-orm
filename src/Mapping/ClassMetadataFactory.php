@@ -1,11 +1,11 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Mapping;
+namespace Aesislabs\Component\Odoo\ORM\Mapping;
 
-use Ang3\Component\Odoo\ORM\Annotation;
-use Ang3\Component\Odoo\ORM\Exception\RuntimeException;
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
-use Ang3\Component\Odoo\ORM\ObjectManager;
+use Aesislabs\Component\Odoo\ORM\Annotation;
+use Aesislabs\Component\Odoo\ORM\Exception\RuntimeException;
+use Aesislabs\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Aesislabs\Component\Odoo\ORM\ObjectManager;
 use Doctrine\Common\Annotations\Reader;
 use ReflectionClass;
 

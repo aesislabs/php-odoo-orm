@@ -1,8 +1,8 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Schema;
+namespace Aesislabs\Component\Odoo\ORM\Schema;
 
-use Ang3\Component\Odoo\ORM\Exception\RuntimeException;
+use Aesislabs\Component\Odoo\ORM\Exception\RuntimeException;
 use Psr\Cache\InvalidArgumentException;
 use Symfony\Contracts\Cache\CacheInterface;
 

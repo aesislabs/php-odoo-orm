@@ -1,9 +1,9 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Mapping;
+namespace Aesislabs\Component\Odoo\ORM\Mapping;
 
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
-use Ang3\Component\Odoo\ORM\Schema\Field;
+use Aesislabs\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Aesislabs\Component\Odoo\ORM\Schema\Field;
 use ReflectionProperty;
 
 class PropertyMetadata

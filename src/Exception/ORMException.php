@@ -1,8 +1,8 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Exception;
+namespace Aesislabs\Component\Odoo\ORM\Exception;
 
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Aesislabs\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
 
 class ORMException extends RuntimeException
 {

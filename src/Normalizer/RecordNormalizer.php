@@ -1,12 +1,12 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Normalizer;
+namespace Aesislabs\Component\Odoo\ORM\Normalizer;
 
-use Ang3\Component\Odoo\Expression\DomainInterface;
-use Ang3\Component\Odoo\ORM\Exception\RuntimeException;
-use Ang3\Component\Odoo\ORM\Model\Collection;
-use Ang3\Component\Odoo\ORM\ObjectManager;
-use Ang3\Component\Odoo\ORM\Schema\Field;
+use Aesislabs\Component\Odoo\Expression\DomainInterface;
+use Aesislabs\Component\Odoo\ORM\Exception\RuntimeException;
+use Aesislabs\Component\Odoo\ORM\Model\Collection;
+use Aesislabs\Component\Odoo\ORM\ObjectManager;
+use Aesislabs\Component\Odoo\ORM\Schema\Field;
 use DateTimeInterface;
 use Symfony\Component\PropertyAccess\PropertyAccessor;
 use Symfony\Component\Serializer\Exception\InvalidArgumentException;

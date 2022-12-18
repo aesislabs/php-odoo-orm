@@ -1,14 +1,14 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM;
+namespace Aesislabs\Component\Odoo\ORM;
 
-use Ang3\Component\Odoo\Client;
-use Ang3\Component\Odoo\Expression\ExpressionBuilder;
-use Ang3\Component\Odoo\ORM\Exception\RecordNotFoundException;
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
-use Ang3\Component\Odoo\ORM\Mapping\ClassMetadata;
-use Ang3\Component\Odoo\ORM\Mapping\ClassMetadataFactory;
-use Ang3\Component\Odoo\ORM\Schema\Schema;
+use Aesislabs\Component\Odoo\Client;
+use Aesislabs\Component\Odoo\Expression\ExpressionBuilder;
+use Aesislabs\Component\Odoo\ORM\Exception\RecordNotFoundException;
+use Aesislabs\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Aesislabs\Component\Odoo\ORM\Mapping\ClassMetadata;
+use Aesislabs\Component\Odoo\ORM\Mapping\ClassMetadataFactory;
+use Aesislabs\Component\Odoo\ORM\Schema\Schema;
 use Doctrine\Common\Annotations\Reader;
 
 class ObjectManager

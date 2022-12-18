@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Exception;
+namespace Aesislabs\Component\Odoo\ORM\Exception;
 
 class RecordNotFoundException extends ORMException
 {

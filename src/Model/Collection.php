@@ -1,8 +1,8 @@
 <?php
 
-namespace Ang3\Component\Odoo\ORM\Model;
+namespace Aesislabs\Component\Odoo\ORM\Model;
 
-use Ang3\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
+use Aesislabs\Component\Odoo\ORM\Internal\ReflectorAwareTrait;
 use ArrayIterator;
 
 /**
